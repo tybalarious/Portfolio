@@ -8,7 +8,8 @@ html {
     width: 100%;
 }
 body {
-    background: url(../images/15494794259_f51656cb69_o.jpg) no-repeat;
+    background-image: url(../images/15494794259_f51656cb69_o.jpg);
+    background-attachment: fixed;
     display: table-cell;
     margin: 2em auto;
 }
@@ -20,7 +21,19 @@ h1 {
 }
 p {
     margin: 0 auto;
-    width: 280px;
+    width: 900px;
+    color: #989898;
+}
+
+.text_box {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    width: 1000px;
+    padding: 10px;
+    border: 10px outset #0f71ba;
+    background: rgba(44, 44, 44, 0.8);
 }
 
 #cssmenu,
@@ -128,4 +141,3 @@ p {
     background: url('../images/bg.png');
     color: #ffffff;
 }
-

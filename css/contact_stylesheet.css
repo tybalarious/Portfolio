@@ -40,7 +40,7 @@ p {
 #cssmenu ul,
 #cssmenu ul li,
 #cssmenu ul li a {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     border: 0;
     list-style: none;

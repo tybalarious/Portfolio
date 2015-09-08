@@ -21,19 +21,36 @@ h1 {
 }
 p {
     margin: 0 auto;
-    width: 900px;
+    width: 1150px;
     color: #989898;
+}
+
+a:link {
+    color: #0f71ba;
+}
+
+a:visited {
+    color: #004a75;
+}
+
+a:hover {
+    color: #0f71ba;
+}
+
+a:active {
+    color: #00b5ff;
 }
 
 .text_box {
     display: table;
     margin: 0 auto;
     position: relative;
-    top: 100px;
-    width: 1000px;
+    top: 250px;
+    width: 1250px;
     padding: 10px;
     border: 10px outset #0f71ba;
     background: rgba(44, 44, 44, 0.8);
+    font-size: 24px;
 }
 
 #cssmenu,
@@ -50,6 +67,9 @@ p {
     font-family: Capriola, Helvetica, sans-serif;
 }
 #cssmenu {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
     width: auto;
     height: 59px;
     padding-bottom: 4px;
@@ -87,7 +107,7 @@ p {
 }
 #cssmenu #bg-three {
     bottom: 4px;
-    height: 55px;
+    height: 60px;
     z-index: 3;
     background: #222222;
     background: -moz-linear-gradient(top, #555555 0%, #222222 100%);

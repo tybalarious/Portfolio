@@ -9,6 +9,7 @@ html {
 }
 body {
     background-image: url(../images/15494794259_f51656cb69_o.jpg);
+    background-attachment: fixed;
     display: table-cell;
     margin: 2em auto;
 }
@@ -18,6 +19,12 @@ h1 {
     font-size: 2em;
     font-weight: 400;
 }
+
+h2 {
+    position: relative;
+    right: 380px
+}
+
 p {
     margin: 0 auto;
     width: 1150px;
@@ -30,10 +37,21 @@ p {
     position: relative;
     top: 100px;
     width: 1250px;
-    padding: 10px;
+    padding: 20px;
     border: 10px outset #0f71ba;
     background: rgba(44, 44, 44, 0.8);
+    font-size: 20px;
+    color: #757575;
+}
+
+.text {
+    position: relative;
+    left: 30px;
     font-size: 24px;
+}
+
+.img-style {
+    float: left;
 }
 
 #cssmenu,

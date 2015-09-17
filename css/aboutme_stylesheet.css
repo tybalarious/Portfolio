@@ -21,11 +21,37 @@ h1 {
 }
 p {
     margin: 0 auto;
-    width: 1150px;
-    color: #989898;
+}
+
+a:link {
+    color: #0f88d6;
+}
+
+a:visited {
+    color: #004a75;
+}
+
+a:hover {
+    color: #0f71ba;
+}
+
+a:active {
+    color: #00b5ff;
+}
+
+footer {
+    padding: 10px;
+    margin: auto;
+    color: #e6e6e6;
+    background-color: rgba(76, 74, 74, 0.9);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: solid 2px;
 }
 
 .text_box {
+    color: #989898;
     display: table;
     margin: 0 auto;
     position: relative;
@@ -52,7 +78,7 @@ p {
 }
 #cssmenu {
     position: fixed;
-    top: 0px;
+    top: 0;
     z-index: 10;
     width: auto;
     height: 59px;

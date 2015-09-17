@@ -19,10 +19,9 @@ h1 {
     font-size: 2em;
     font-weight: 400;
 }
+
 p {
     margin: 0 auto;
-    width: 1150px;
-    color: #989898;
 }
 
 form {
@@ -88,6 +87,17 @@ input:focus, textarea:focus {
     border-color: #000;
 }
 
+footer {
+    padding: 10px;
+    margin: auto;
+    color: #e6e6e6;
+    background-color: rgba(76, 74, 74, 0.9);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: solid 2px;
+}
+
 a:link {
     color: #0f71ba;
 }
@@ -105,10 +115,11 @@ a:active {
 }
 
 .text_box {
+    color: #989898;
     display: table;
     margin: 0 auto;
     position: relative;
-    top: 250px;
+    top: 100px;
     width: 1250px;
     padding: 10px;
     border: 10px outset #0f71ba;
@@ -131,7 +142,7 @@ a:active {
 }
 #cssmenu {
     position: fixed;
-    top: 0px;
+    top: 0;
     z-index: 10;
     width: auto;
     height: 59px;

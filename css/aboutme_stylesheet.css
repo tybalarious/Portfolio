@@ -19,6 +19,13 @@ h1 {
     font-size: 2em;
     font-weight: 400;
 }
+
+h2 {
+    text-decoration: underline;
+    position: relative;
+    right: 450px;
+}
+
 p {
     margin: 0 auto;
 }
@@ -57,7 +64,7 @@ footer {
     position: relative;
     top: 100px;
     width: 1250px;
-    padding: 10px;
+    padding: 30px;
     border: 10px outset #0f71ba;
     background: rgba(44, 44, 44, 0.8);
     font-size: 24px;

@@ -69,6 +69,16 @@ footer {
     font-size: 24px;
 }
 
+.myface {
+    background-image: url(../images/11017705_354319791429638_1169459263903684532_n.jpg);
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 750px;
+    bottom: 100px;
+}
+
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
